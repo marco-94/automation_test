@@ -20,7 +20,7 @@ class Test(unittest.TestCase):
         self.browser.get("https://cg168778.wornhole1.cn:38043/pc_login")
         time.sleep(5)
         self.browser.find_element_by_name("username").send_keys("gzsq_peizhi")
-        self.browser.find_element_by_name("password").send_keys("gzsq_test")
+        self.browser.find_element_by_name("password").send_keys("")
         time.sleep(1)
         self.browser.find_element_by_id("submit").click()
         time.sleep(10)
